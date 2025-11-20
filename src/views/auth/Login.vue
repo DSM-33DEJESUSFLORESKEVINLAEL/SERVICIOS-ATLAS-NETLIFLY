@@ -44,12 +44,14 @@ import apiService from "../../services/apiService";
 
 export default {
   setup() {
-    const usuario = ref("ASESORIA");
-    const password = ref("ASE19*");
+    // const usuario = ref("ASESORIA");
+    // const password = ref("ASE19*");
     // const usuario = ref("WCLN");
     // const password = ref("WMT*CLN");
     //   const usuario = ref("WSMO");
     // const password = ref("WMT*SMO");
+       const usuario = ref("");
+    const password = ref("");
     const showPassword = ref(false);
     const router = useRouter();
     const showModal = ref(false);
